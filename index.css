@@ -6,7 +6,7 @@
   list-style: none;
   scroll-behavior: smooth;
 }
-.section{
+.section {
   padding: 0 1%;
 }
 .header {
@@ -128,17 +128,16 @@
 }
 
 /* HERO SECTION */
-.form{
+.form {
+  margin-top: 20px;
   height: 35vh;
   padding: 0 3%;
-  overflow-y:scroll;
-
+  overflow-y: scroll;
 }
 .hero-info-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, auto));
   gap: 20px;
- 
 }
 .hero-info-section label {
   width: 35%;
@@ -148,13 +147,12 @@
   gap: 20px;
   align-items: center;
   border-radius: 3px;
-
 }
 .hero-info-section label P {
   margin-left: 15px;
-  font-size: 14px;
+  font-size: 15px;
 }
-.info-1 { 
+.info-1 {
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -168,6 +166,9 @@
   border: none;
   border: 1px solid rgb(198, 196, 196);
   border-radius: 3px;
+  text-align: center;
+}
+.info-1 select option{ 
   text-align: center;
 }
 .info-1 input {
@@ -184,10 +185,10 @@
 }
 
 /* HERO-SECTION-2 */
-.hero-section-2{
+.hero-section-2 {
   margin-top: 20px;
 }
-.btn-div-2 button{
+.btn-div-2 button {
   padding: 5px 10px;
   border: none;
   background: linear-gradient(180deg, #3573c4, #134c91);
@@ -196,45 +197,36 @@
   font-weight: bold;
   font-size: 15px;
 }
-.blank{
+.blank {
   text-align: right;
   margin-top: 30px;
 }
-.blank button{
+.blank button {
   padding: 5px 20px;
   text-align: right;
   margin-top: 10px;
   font-size: 16px;
   color: black;
 }
-.sho-submit-btn{
-  display: flex; justify-content: center; align-items: center; gap: 20px;
+.sho-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin-top: 50px;
 }
-.sho-submit-btn button{
-  background-image: linear-gradient(92.88deg, #5269ba 9.16%, #6958d2 43.89%, #7b58db 64.72%);
+.sho-submit-btn button {
   border-radius: 8px;
+  background: linear-gradient(to right, #447dc7, #134c91);
+  font-weight: bold;
   border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  flex-shrink: 0;
-  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  /* height: 4rem; */
   padding: 15px 20px;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-  transition: all .5s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 20%;
+  width: 23%;
 }
 
 .sho-submit-btn button:hover {
-  box-shadow: 0 0 5px rgb(195, 111, 195);
-  transition-duration: .1s;
+  box-shadow: 0 0 10px #134c91;
+  transition-duration: 0.3s;
 }
-
