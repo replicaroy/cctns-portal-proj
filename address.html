@@ -6,7 +6,6 @@
     <title>CCTNS</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="util.css" />
-    <link rel="stylesheet" href="media.css">
     <link
       rel="icon"
       type="image/x-icon"
@@ -116,14 +115,13 @@
 
         <div class="main-btn-div">
           <button class="main-btn">व्यक्तिगत जानकारी</button>
-          <a href="address.html">hello</a>
-         <a href="address.html"></a> <button class="main-btn">पता</button>
+          <button class="main-btn">पता</button>
           <button class="main-btn">अन्य जानकारी</button>
         </div>
-        <form action="" class="form ">
+        <form action="" class="form hide">
           <div class="hero-info-section  " >
             <div class="info-1">
-              <div class=" div flex">
+              <div class="sex flex">
                 <label for="">
                   <p>लिंग</p>
                 </label>
@@ -136,39 +134,43 @@
                 </select>
               </div>
 
-              <div class="div flex">
+              <div class="first-name flex">
                 <label for="">
                   <p>प्रथम नाम <span class="firsname-span">*</span></p>
                 </label>
                 <input type="text" id="firstName" placeholder="" />
               </div>
 
-              <div class="div flex">
+              <div class="middle-name flex">
                 <label for="">
                   <p>मध्य नाम</p>
                 </label>
                 <input type="text" id="middleName" placeholder="" />
               </div>
 
-              <div class="div flex">
+              <div class="last-name flex">
                 <label for="">
                   <p>अंतिम नाम</p>
                 </label>
                 <input type="text" id="middleName" placeholder="" />
               </div>
 
-              <div class="div flex">
+              <div class="middle-name flex">
                 <label for="">
                   <p>उपनाम</p>
                 </label>
                 <input
-                  type="text" id="middleName"  placeholder=""  class="upnam"                />
+                  type="text"
+                  id="middleName"
+                  placeholder=""
+                  style="width: 33%"
+                />
                 &nbsp; &nbsp; <button class="saheje">सहेजें</button>
               </div>
             </div>
 
             <div class="info-1">
-              <div class=" flex w">
+              <div class="flex w">
                 <label for="">
                   <p>वैवाहिक स्थिति</p>
                 </label>
@@ -184,11 +186,10 @@
                 </select>
               </div>
 
-              <div class="mobile div flex">
+              <div class="mobile flex">
                 <label for="">
                   <p>मोबाईल नंबर <span class="firsname-span">*</span></p>
                 </label>
-                <div class="mbile">
                 <input
                   type="number"
                   id="firstName"
@@ -202,19 +203,18 @@
                   placeholder=""
                   style="width: 30%"
                 />
-              </div> 
                 &nbsp; &nbsp;
                 <button class="saheje verify-btn">सत्यापित करें</button>
               </div>
 
-              <div class="div flex">
+              <div class="landline flex">
                 <label for="">
                   <p>लैंडलाइन नंबर</p>
                 </label>
                 <input type="text" id="middleName" placeholder="" />
               </div>
 
-              <div class="div flex">
+              <div class="email flex">
                 <label for="">
                   <p>ईमेल आईडी</p>
                 </label>
@@ -222,7 +222,7 @@
                 &nbsp; <button class="saheje verify-btn">सत्यापित करें</button>
               </div>
 
-              <div class=" div victim-complainant flex">
+              <div class="victim-complainant flex">
                 <label for="">
                   <p>क्या पीड़ित और शिकायतकर्ता एक ही हैं?</p>
                 </label>
@@ -246,14 +246,14 @@
           <div class="hero-section-2">
             <div class="btn-div-2" style="margin-top: 30px">
               <button class="">क्र.सं</button>
-              <button class="upnam" >
+              <button class="" style="width: 30%; text-align: left">
                 उपनाम
               </button>
               <button class="">हटाएँ</button>
             </div>
             <div class="hero-info-section">
               <div class="info-1">
-                <div class="div flex">
+                <div class="sex flex">
                   <label for="">
                     <p>संबंध प्रकार</p>
                   </label>
@@ -267,21 +267,21 @@
                   </select>
                 </div>
 
-                <div class="div flex">
+                <div class="first-name flex">
                   <label for="">
                     <p>संबंधी का नाम <span class="firsname-span">*</span></p>
                   </label>
                   <input type="text" id="firstName" placeholder="" />
                 </div>
 
-                <div class="div flex">
+                <div class="middle-name flex">
                   <label for="">
                     <p>संबंधी का उपनाम</p>
                   </label>
                   <input type="text" id="middleName" placeholder="" />
                 </div>
 
-                <div class="div flex">
+                <div class="last-name flex">
                   <label for="">
                     <p>श्रेणी</p>
                   </label>
@@ -294,14 +294,14 @@
                   आयु पैनल
                 </button>
 
-                <div class=" div flex w" style="margin-top: 10px">
+                <div class="flex w" style="margin-top: 10px">
                   <label for="">
                     <p>जन्म तिथि</p>
                   </label>
                   <input type="date" />
                 </div>
 
-                <div class="div flex">
+                <div class="mobile flex">
                   <label for="">
                     <p>आयु (वर्ष/महीना) <span class="firsname-span">*</span></p>
                   </label>
@@ -319,14 +319,14 @@
                   />
                 </div>
 
-                <div class="div flex">
+                <div class="landline flex">
                   <label for="">
                     <p>जन्म का वर्ष</p>
                   </label>
                   <input type="text" id="middleName" placeholder="" />
                 </div>
 
-                <div class="div flex">
+                <div class="email flex">
                   <label for="">
                     <p>आयु सीमा(से - तक)</p>
                   </label>
@@ -356,7 +356,240 @@
 <!-- ````````````````````````````/////////////////////////////////////////////````````````````````````````````` -->
 
  <!-- 2ND HERO BUTTON SECTION -->   
+ <form action="" class="form ">
+ <div class="hero-info-section">
+    <div class="info-1">  
+        <p>sthai pata</p> 
+      <div class="first-name flex">
+        <label for="">
+          <p>मकान सं </p>
+        </label>
+        <input type="text" id="firstName" placeholder="" />
+      </div>
 
+      <div class="middle-name flex">
+        <label for="">
+          <p>गली का नाम</p>
+        </label>
+        <input type="text" id="middleName" placeholder="" />
+      </div>
+
+      <div class="last-name flex">
+        <label for="">
+          <p>कॉलोनी / इलाक़ा /क्षेत्र</p>
+        </label>
+        <input type="text" id="middleName" placeholder="" />
+      </div>  
+      
+      <div class="last-name flex">
+        <label for="">
+          <p>ग्राम / नगर / शहर <span>*</span></p>
+        </label>
+        <input type="text" id="middleName" placeholder="" />
+      </div>
+  
+    <div class="last-name flex">
+        <label for="">
+          <p>तहसील / ब्लॉक / मंडल</p>
+        </label>
+        <input type="text" id="middleName" placeholder="" />
+      </div>
+
+      <div class="last-name flex">
+        <label for="">
+          <p>वर्तमान पता <span>*</span></p> 
+        </label>   &nbsp; &nbsp;    
+        <div class="radio flex align" > वर्तमान पता और स्थायी पता एक ही है ? <input type="radio" id="middleName" name="radio" /> &nbsp; हां <input type="radio" id="middleName" name="radio" /> &nbsp;  नहीं </div> 
+        
+      </div>
+
+    <div class="info-1">             
+
+      <div class="mobile flex">
+        <label for="">
+          <p>देश <span class="firsname-span">*</span></p>
+        </label>
+        <input
+          type="text" id="firstName" placeholder="
+          भारत"  class="center"/>        
+      </div>
+
+      <div class="landline flex">
+        <label for="">
+          <p>राज्य</p>
+        </label>
+        <select name="select" id="" disabled>
+            <option value="0">राजस्थान</option>            
+          </select>
+      </div>
+
+      <div class="landline flex">
+        <label for="">
+          <p>जिला</p>
+        </label>
+        <select name="select" id="">
+            <option value="0">-----चयन-----</option>          
+          </select>
+      </div>
+
+      <div class="landline flex">
+        <label for="">
+          <p>राज्य</p>
+        </label>
+        <select name="select" id="">
+            <option value="0">-----चयन-----</option>         
+          </select>
+      </div>
+
+      <div class="landline flex">
+        <label for="">
+          <p>राज्य</p>
+        </label>
+        <select name="select" id="">
+            <option value="0">-----चयन-----</option>          
+          </select>
+      </div>
+
+
+
+      <div class="email flex">
+        <label for="">
+          <p>पुलिस स्टेशन</p>
+        </label>
+        <select name="select" id="">
+            <option value="0">-----चयन-----</option>
+            <option value="1">अभिभावक</option>
+            <option value="2">पति</option>
+            <option value="3">पत्नी</option>
+            <option value="4">पिता</option>
+            <option value="5">मां</option>
+          </select>
+      </div>      
+    </div>
+    <div class="landline flex">
+      <label for="">
+        <p>पिन कोड</p>
+      </label>
+      <input type="text" id="middleName" placeholder="" />
+    </div>
+  </div>
+
+
+  <!-- 2nd hero section -->
+  <div class="hero-section-2">
+   
+    <div class="hero-info-section">
+        <p style="margin-bottom: -30px;">sthai pata</p> 
+
+        <div class="info-1">   
+            <div class="first-name flex">
+              <label for="">
+                <p>मकान सं </p>
+              </label>
+              <input type="text" id="firstName" placeholder="" />
+            </div>
+      
+            <div class="middle-name flex">
+              <label for="">
+                <p>गली का नाम</p>
+              </label>
+              <input type="text" id="middleName" placeholder="" />
+            </div>
+      
+            <div class="last-name flex">
+              <label for="">
+                <p>कॉलोनी / इलाक़ा /क्षेत्र</p>
+              </label>
+              <input type="text" id="middleName" placeholder="" />
+            </div>  
+            
+            <div class="last-name flex">
+              <label for="">
+                <p>ग्राम / नगर / शहर <span>*</span></p>
+              </label>
+              <input type="text" id="middleName" placeholder="" />
+            </div>
+        
+          <div class="last-name flex">
+              <label for="">
+                <p>तहसील / ब्लॉक / मंडल</p>
+              </label>
+              <input type="text" id="middleName" placeholder="" />
+            </div>   
+           
+                <div class="info-1">             
+      
+            <div class="mobile flex">
+              <label for="">
+                <p>देश <span class="firsname-span">*</span></p>
+              </label>
+              <input
+                type="text" id="firstName" placeholder="
+                भारत"  class="center"/>        
+            </div>
+      
+            <div class="landline flex">
+              <label for="">
+                <p>राज्य</p>
+              </label>
+              <select name="select" id="" disabled>
+                  <option value="0">राजस्थान</option>            
+                </select>
+            </div>
+      
+            <div class="landline flex">
+              <label for="">
+                <p>जिला</p>
+              </label>
+              <select name="select" id="">
+                  <option value="0">-----चयन-----</option>          
+                </select>
+            </div>
+      
+            <div class="landline flex">
+              <label for="">
+                <p>राज्य</p>
+              </label>
+              <select name="select" id="">
+                  <option value="0">-----चयन-----</option>         
+                </select>
+            </div>
+      
+            <div class="landline flex">
+              <label for="">
+                <p>राज्य</p>
+              </label>
+              <select name="select" id="">
+                  <option value="0">-----चयन-----</option>          
+                </select>
+            </div>
+      
+      
+      
+            <div class="email flex">
+              <label for="">
+                <p>पुलिस स्टेशन</p>
+              </label>
+              <select name="select" id="">
+                  <option value="0">-----चयन-----</option>
+                  <option value="1">अभिभावक</option>
+                  <option value="2">पति</option>
+                  <option value="3">पत्नी</option>
+                  <option value="4">पिता</option>
+                  <option value="5">मां</option>
+                </select>
+            </div>      
+          </div>
+          <div class="landline flex">
+            <label for="">
+              <p>पिन कोड</p>
+            </label>
+            <input type="text" id="middleName" placeholder="" />
+          </div>
+        </div>
+    </div>
+  </div>
+  </form>
 
 
 <!-- ````````````````````````````/////////////////////////////////////////////````````````````````````````````` -->
@@ -369,12 +602,6 @@
         <button>ई-एफ़.आई.आऱ को एस.एच.ओ. को भेजने से पूर्व देखे</button>
       </div>
     </div>
-
-
-             
-
-
-
   </body>
 </html>
 
@@ -392,104 +619,3 @@
 
 
 
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Form Switching</title>
-<style>
-  /* CSS for button styles */
-  .button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  .active {
-    background-color: #4CAF50; /* Green */
-    color: white;
-  }
-
-  /* CSS for form container */
-  .form-container {
-    display: none;
-  }
-</style>
-</head>
-<body>
-
-<!-- Buttons -->
-<!-- <button class="button" onclick="openForm('form1')">Form 1</button>
-<button class="button" onclick="openForm('form2')">Form 2</button>
-<button class="button" onclick="openForm('form3')">Form 3</button>
-<button class="button" onclick="openForm('form4')">Form 4</button> -->
-
-<!-- Form Containers -->
-<!-- <div id="form1" class="form-container"> -->
-<!-- <h2>Form 1</h2> -->
-<!-- <form> -->
-<!-- Form 1 Fields -->
-<!-- <label for="field1">Field 1:</label>
-    <input type="text" id="field1" name="field1">
-    <br><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-<div id="form2" class="form-container">
-  <h2>Form 2</h2>
-  <form> -->
-<!-- Form 2 Fields -->
-<!-- <label for="field2">Field 2:</label>
-    <input type="text" id="field2" name="field2">
-    <br><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-<div id="form3" class="form-container">
-  <h2>Form 3</h2>
-  <form> -->
-<!-- Form 3 Fields -->
-<!-- <label for="field3">Field 3:</label>
-    <input type="text" id="field3" name="field3">
-    <br><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-<div id="form4" class="form-container">
-  <h2>Form 4</h2>
-  <form> -->
-<!-- Form 4 Fields -->
-<!-- <label for="field4">Field 4:</label>
-    <input type="text" id="field4" name="field4">
-    <br><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-<script>
-function openForm(formName) {
-  var i, formContainer;
-  formContainer = document.getElementsByClassName("form-container");
-  for (i = 0; i < formContainer.length; i++) {
-    formContainer[i].style.display = "none";
-  }
-  document.getElementById(formName).style.display = "block"; -->
-
-<!-- // Change button color
-  var buttons = document.getElementsByClassName("button");
-  for (i = 0; i < buttons.length; i++) {
-    buttons[i].classList.remove("active");
-  }
-  document.querySelector('[onclick="openForm(\'' + formName + '\')"]').classList.add("active");
-}
-</script>
-
-</body>
-</html> -->
--->

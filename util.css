@@ -34,3 +34,18 @@
     font-weight: bold;
     font-size: 15px;
 }
+.hide{
+    display: none;
+}
+.center{
+    text-align: center;
+}
+.radio{
+    font-size: 12px;
+}
+.radio input{
+   width: 14px;
+}
+.upnamr{
+    width: 30%; text-align: left
+}

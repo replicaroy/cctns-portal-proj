@@ -110,6 +110,7 @@
 .main-btn-div {
   display: flex;
   margin-top: 15px;
+  padding: 0 3%;
 }
 .main-btn-div > .main-btn {
   padding: 5px 10px;
@@ -123,8 +124,10 @@
 .hero-section {
   margin-top: 20px;
   border: 1px solid rgb(175, 174, 174);
+  border-radius: 10px;
   height: 45vh;
   padding: 0 10px;
+  width: 100%;
 }
 
 /* HERO SECTION */
@@ -217,7 +220,7 @@
 }
 .sho-submit-btn button {
   border-radius: 8px;
-  background: linear-gradient(to right, #447dc7, #134c91);
+  background: linear-gradient(to right, #2d65b0, #093b77);
   font-weight: bold;
   border-style: none;
   color: #ffffff;

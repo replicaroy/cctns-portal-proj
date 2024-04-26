@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+.inner-div-one,
+.inner-div-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+  gap: 50px;
+}
+.form-one,
+.form-two {
+  width: 90%;
+}
+
+.input-field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.label-input {
+  width: 100%;
+}
+.summery-btn {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  background: #345986;
+  color: white;
+}
+
+.label-input input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(176, 175, 175);
+  border-radius: 3px;
+}
+.label-input select {
+  border-radius: 3px;
+  border: 1px solid rgb(198, 196, 196);
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  margin: 5px 0;
+}
+.label {
+  background-color: #e0e6ff;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.blank-btn {
+  text-align: right;
+  margin-top: 30px;
+}
+.blank-btn button {
+  width: 230px;
+  height: 35px;
+}
+
+.inner-div-two {
+  margin-top: 50px;
+}
+
+@media (max-width: 550px) {
+  .inner-div {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 30px;
+  }
+  .input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .blank-btn {
+    text-align: center;
+    width: 100%;
+  }
+  .blank-btn button {
+    width: 100%;
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+    color: white;
+  }
+}
